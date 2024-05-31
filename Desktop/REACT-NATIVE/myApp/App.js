@@ -2,6 +2,7 @@ import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, Image, TextInput } from "react-native";
 import SearchBar from "./search";
 import Scrolls from "./categories";
+import Tasks from "./tasks";
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
       <View>
         <Scrolls />
       </View>
+      <View><Tasks/></View>
 
       <StatusBar style="auto" />
     </View>
