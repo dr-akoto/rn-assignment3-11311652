@@ -37,6 +37,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#f7f0e8",
     padding: 15,
+    PaddingTop:30
   
     // alignItems: "center",
     // justifyContent: "center",
@@ -48,6 +49,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
+    paddingTop:20
   },
   text: {
     fontSize: 26,
