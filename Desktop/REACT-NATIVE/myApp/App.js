@@ -36,7 +36,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#f7f0e8",
-    padding: 12,
+    padding: 15,
+  
     // alignItems: "center",
     // justifyContent: "center",
   },
@@ -49,13 +50,13 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   text: {
-    fontSize: 30,
+    fontSize: 26,
     fontWeight: "bold",
     // backgroundColor:"#000"
   },
   tinyLogo: {
-    width: 80,
-    height: 80,
+    width: 40,
+    height: 40,
     borderRadius: 100, // Makes the image circular
     borderColor: "#000",
     backgroundColor: "white",
